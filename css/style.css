@@ -1,0 +1,61 @@
+html {box-sizing: border-box;
+    font-size: 62.5%;}
+
+/* GENERAL */
+
+body {
+    background-color: #F5C6A5;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-perezoso {
+    background-color: #FF7777;
+    color: #852747;
+}
+
+.bg-dropdown {
+    background-color: #FF7777;
+}
+
+form{
+    font-size: 1.3rem;
+}
+
+li{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* DIARIAS */
+
+.tituloSeparador{
+    text-align: center;
+padding-top: 50px;
+font-family: 'Bebas Neue', cursive;
+font-size: 5rem;
+text-transform: uppercase;
+}
+
+.divSeparador{
+    background-color: #7A3A5140 ;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+a.list-group-item{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.divFormularioDiarias{
+    background-color: #cf8aa350 ;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
