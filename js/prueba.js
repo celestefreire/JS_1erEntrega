@@ -1,5 +1,3 @@
-let usuario = prompt("¡Bienvenidx a tu lista de tareas! ¿Cúal es tu nombre?")
-
 let tarea
 let hora
 let importancia
@@ -131,3 +129,27 @@ const sumarAlista = () => {
 
 const botonTareasDiarias = document.getElementById("botonDiarias")
 botonTareasDiarias.addEventListener("click", sumarAlista)
+
+
+//USUARIO
+
+let usuarix
+const guardaRegistro = () => {
+
+    usuarix = prompt ("Ingresa tu nombre")
+
+    const h1Registro = document.getElementById("nombreUsuario")
+    h1Registro.textContent = usuarix
+
+    swal({
+        title: `Bienvenidx ${usuarix}`,
+        text: "Comencemos tu lista de tareas",
+        icon: "success",
+        className: "swalProp"
+    })
+
+}
+
+const botonRegistro = document.getElementById("botonUsuario")
+botonUsuario.addEventListener("click", guardaRegistro)
+
