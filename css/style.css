@@ -123,6 +123,27 @@ a.list-group-item{
     padding-bottom: 15px;
 }
 
+/* CONSEJOS */
+
+.btnConsejo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #D67D3E;
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #470D21;
+    margin-right: 20px;
+}
+
+.divConsejo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #cf8aa350;
+}
+
 /* FOOTER */
 
 footer {

@@ -153,3 +153,26 @@ const guardaRegistro = () => {
 const botonRegistro = document.getElementById("botonUsuario")
 botonUsuario.addEventListener("click", guardaRegistro)
 
+
+//JSON RANDOM
+
+const obtenerConsejos = () => {
+    const urlJsonLocal = "https://gist.githubusercontent.com/celestefreire/40314ab6d71044070e28abb7adf58115/raw/526c8531b8d2e89969424dd3f1b5343d8fbd2e2f/frases_perezoso.json"
+
+    document.getElementById("btnConsejos").onclick = () => {
+
+        fetch(urlJsonLocal)
+            .then ((response) => response.json())
+            .then ((info) => {
+                let consejo = info.frases
+
+                let consejoAleatorio = consejo[Math.floor(Math.random() * consejo.length)]
+
+                document.getElementById("divConsejo").innerHTML=`
+                <h2>${consejoAleatorio.frase}</h2>`
+
+            })
+    }
+}
+
+obtenerConsejos()
